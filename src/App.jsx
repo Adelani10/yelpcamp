@@ -9,7 +9,7 @@ import SignUp from "./pages/signUp"
 function App() {
 
   return (
-    <div className="App container mx-auto min-h-screen border relative overflow-hidden">
+    <div className="App container mx-auto min-h-screen relative overflow-hidden">
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route path="/camps" element={<Search/>} />
